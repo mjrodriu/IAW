@@ -1,0 +1,11 @@
+﻿<web-app id="simple" version="2.4">
+	<display-name>asir</display-name>
+  <servlet>
+    <servlet-name>Hello</servlet-name>
+    <servlet-class>org.net.Hello</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>Hello</servlet-name>
+    <url-pattern>/hello</url-pattern>
+</servlet-mapping>
+</web-app>
